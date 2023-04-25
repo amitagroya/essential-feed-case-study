@@ -16,6 +16,7 @@
 		15909BC629EF62DC0079C837 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15909BC529EF62DC0079C837 /* RemoteFeedLoaderTests.swift */; };
 		15909BC929EFFEFB0079C837 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15909BC829EFFEFB0079C837 /* RemoteFeedLoader.swift */; };
 		15909BCB29F759580079C837 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15909BCA29F759580079C837 /* HTTPClient.swift */; };
+		15909BCD29F759F50079C837 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15909BCC29F759F50079C837 /* FeedItemsMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		15909BC529EF62DC0079C837 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		15909BC829EFFEFB0079C837 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		15909BCA29F759580079C837 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		15909BCC29F759F50079C837 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				15909BC829EFFEFB0079C837 /* RemoteFeedLoader.swift */,
 				15909BCA29F759580079C837 /* HTTPClient.swift */,
+				15909BCC29F759F50079C837 /* FeedItemsMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				15909BC929EFFEFB0079C837 /* RemoteFeedLoader.swift in Sources */,
 				15909BCB29F759580079C837 /* HTTPClient.swift in Sources */,
 				15909BB629ECCA990079C837 /* FeedLoader.swift in Sources */,
+				15909BCD29F759F50079C837 /* FeedItemsMapper.swift in Sources */,
 				15909BB429ECC9CB0079C837 /* FeedItem.swift in Sources */,
 				15909B9E29ECC7C70079C837 /* EssentialFeed.docc in Sources */,
 			);
